@@ -1,0 +1,19 @@
+#-------------#
+| Description |
+#-------------#
+This class is used to Convert from RT90 Coordinates to WGS84
+and also reverse ofcourse. Example of usage. Convert RT90 Coordinate to WGS84
+to be able to mark a spot on google maps or any other non RT90 supported media
+
+Now you won't have to rely on any pay to use REST Webservice
+
+#-------------#
+| PHP Example |
+#-------------#
+<?php
+include_once("CGeo.php");
+
+$wgs = CGeo::ToWGS84(6169657, 1366886);
+echo $wgs."\n";
+echo $wgs->toRT90()."\n";
+?>
