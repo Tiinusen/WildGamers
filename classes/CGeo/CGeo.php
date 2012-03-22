@@ -35,7 +35,7 @@ class RT90
     }
     
     public function __toString() {
-        return "X: ".$this->x.", Y:".$this->y;
+        return "X:".$this->x.", Y:".$this->y;
     }
     
     /**
