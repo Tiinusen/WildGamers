@@ -17,3 +17,7 @@ $wgs = CGeo::ToWGS84(6169657, 1366886);
 echo $wgs."\n";
 echo $wgs->toRT90()."\n";
 ?>
+
+
+A BETTER SOLUTION AVAILABLE TO SOLVE THIS PROBLEM
+https://github.com/david-xelera/CoordinateTransformationLibrary
